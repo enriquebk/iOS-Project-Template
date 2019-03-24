@@ -1,0 +1,24 @@
+platform :ios, '10.0'
+use_frameworks!
+inhibit_all_warnings!
+
+pod 'SwiftLint'
+pod 'SwiftGen'
+
+target 'MyProject' do
+
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'SVProgressHUD'
+
+  target 'MyProjectTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MyProjectUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
