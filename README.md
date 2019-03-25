@@ -11,9 +11,9 @@ This is an iOS project template heavily based on [Xmartlabs's](https://xmartlabs
 * Swift Lint integration
 * Localization and safe string usage using SwiftGen
 * Podfile containing popular libraries (RXSwift, RXCocoa, SwiftLint, SwiftGen)
-* README.md file with instalion guide and travis and codenv badges 
+* README.md file with an installation guide and travis and codenv badges 
 
 ## Usage
 
-Just open the terminal, go to the project directory and run `swift shell.swift`. The script will ask you some infomation about the project (Project name, bundle Identifier, etc) once you enter the requested data your porject will be generated and automatically opened.
+Just open the terminal, go to the project directory and run `swift shell.swift`. The script will ask you some infomation about the project (Project name, bundle Identifier, etc). Once you enter the requested data your porject will be generated and automatically opened.
 
