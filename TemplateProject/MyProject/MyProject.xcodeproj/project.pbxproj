@@ -10,7 +10,6 @@
 		51A447F699D7E6B4389E8B99 /* Pods_MyProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8389C111B4F02F0A0398168 /* Pods_MyProjectUITests.framework */; };
 		6D01D20973592DC208E11BBC /* Pods_MyProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571B9D77DC16007C22D9EACB /* Pods_MyProjectTests.framework */; };
 		BDF38849E2583FC79DFDCC9D /* Pods_MyProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106C5610C0F6A820FEAF9046 /* Pods_MyProject.framework */; };
-		CD38295C2205B8DA00F0DE4F /* NibIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38295B2205B8DA00F0DE4F /* NibIdentifiable.swift */; };
 		CD7BD02822393B94004A2167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BD02722393B94004A2167 /* ViewController.swift */; };
 		CD7BD02A22393BD3004A2167 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7BD02922393BD3004A2167 /* Test.swift */; };
 		CD810BD922044FD400D56D80 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD810BD822044FD400D56D80 /* APIClient.swift */; };
@@ -53,7 +52,6 @@
 		571B9D77DC16007C22D9EACB /* Pods_MyProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		964C1D93FF979D3D9F84CFC9 /* Pods-MyProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProjectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyProjectUITests/Pods-MyProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8389C111B4F02F0A0398168 /* Pods_MyProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD38295B2205B8DA00F0DE4F /* NibIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibIdentifiable.swift; sourceTree = "<group>"; };
 		CD7BD02722393B94004A2167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD7BD02922393BD3004A2167 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		CD810BD822044FD400D56D80 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
@@ -107,14 +105,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD38295A2205B8C100F0DE4F /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				CD38295B2205B8DA00F0DE4F /* NibIdentifiable.swift */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
 		CD810BD52203BD1900D56D80 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,7 +139,6 @@
 		CD91CF4E2201FF6D00C8F9DF /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
-				CD38295A2205B8C100F0DE4F /* Helpers */,
 				CD91CF8C2202635900C8F9DF /* Resources */,
 				CD810BD52203BD1900D56D80 /* APIClient */,
 				CD91CF9A2202F7DA00C8F9DF /* MVVM-C */,
@@ -540,7 +529,6 @@
 				CD810BDD22046F8200D56D80 /* APIRequest.swift in Sources */,
 				CD91CFA02202F85500C8F9DF /* Coordinator.swift in Sources */,
 				CD7BD02822393B94004A2167 /* ViewController.swift in Sources */,
-				CD38295C2205B8DA00F0DE4F /* NibIdentifiable.swift in Sources */,
 				CD91CFA22202F87600C8F9DF /* Route.swift in Sources */,
 				CD91CFA62202F8C600C8F9DF /* MVVMCUtils.swift in Sources */,
 				CD91CF9C2202F7FA00C8F9DF /* MVVMView.swift in Sources */,

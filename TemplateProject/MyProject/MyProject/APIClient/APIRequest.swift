@@ -9,27 +9,25 @@
 import Foundation
 
 enum APIRequest {
-
-    case posts
-    case users
-    case comments
+    
+    //MARK: Endopints
+    
+    // Add endpoints as enum cases
+    
+    //MARK: -
     
     private func httpProtocol() -> String {
-        return "http"
+        return "https"
     }
     
     private func basePath() -> String {
-        return "jsonplaceholder.typicode.com"
+        return ""
     }
     
     private func path() -> String {
         switch self {
-        case .posts:
-            return "/posts"
-        case .users:
-            return "/users"
-        case .comments:
-            return "/comments"
+        default:
+            return ""
         }
     }
     
