@@ -17,7 +17,7 @@
 		CD91CF502201FF6D00C8F9DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD91CF4F2201FF6D00C8F9DF /* AppDelegate.swift */; };
 		CD91CF572201FF7000C8F9DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD91CF562201FF7000C8F9DF /* Assets.xcassets */; };
 		CD91CF5A2201FF7000C8F9DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD91CF582201FF7000C8F9DF /* LaunchScreen.storyboard */; };
-		CD91CF702201FF7000C8F9DF /* iOS_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD91CF6F2201FF7000C8F9DF /* iOS_DemoUITests.swift */; };
+		CD91CF702201FF7000C8F9DF /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD91CF6F2201FF7000C8F9DF /* UITests.swift */; };
 		CD91CF94220263F600C8F9DF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD91CF96220263F600C8F9DF /* Localizable.strings */; };
 		CD91CF992202666C00C8F9DF /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD91CF982202666C00C8F9DF /* Strings.swift */; };
 		CD91CF9C2202F7FA00C8F9DF /* MVVMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD91CF9B2202F7FA00C8F9DF /* MVVMView.swift */; };
@@ -64,7 +64,7 @@
 		CD91CF602201FF7000C8F9DF /* MyProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD91CF662201FF7000C8F9DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD91CF6B2201FF7000C8F9DF /* MyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD91CF6F2201FF7000C8F9DF /* iOS_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_DemoUITests.swift; sourceTree = "<group>"; };
+		CD91CF6F2201FF7000C8F9DF /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		CD91CF712201FF7000C8F9DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD91CF95220263F600C8F9DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CD91CF982202666C00C8F9DF /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 		CD91CF6E2201FF7000C8F9DF /* MyProjectUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CD91CF6F2201FF7000C8F9DF /* iOS_DemoUITests.swift */,
+				CD91CF6F2201FF7000C8F9DF /* UITests.swift */,
 				CD91CF712201FF7000C8F9DF /* Info.plist */,
 			);
 			path = MyProjectUITests;
@@ -548,7 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD91CF702201FF7000C8F9DF /* iOS_DemoUITests.swift in Sources */,
+				CD91CF702201FF7000C8F9DF /* UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
