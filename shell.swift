@@ -13,7 +13,7 @@ var projectName = "MyProject"
 var bundleDomain = "com.myproject"
 var author = ""
 var githubUserName = ""
-var organizationName = "MyProject"
+var organizationName = ""
 
 let fileManager = FileManager.default
 
