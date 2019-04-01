@@ -10,11 +10,11 @@ import Foundation
 
 enum APIRequest {
     
-    //MARK: Endopints
+    // MARK: Endopints
     
     // Add endpoints as enum cases
     
-    //MARK: -
+    // MARK: -
     
     private func httpProtocol() -> String {
         return "https"
