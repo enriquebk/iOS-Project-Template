@@ -15,5 +15,5 @@ This is an iOS project template heavily based on [Xmartlabs's](https://xmartlabs
 
 ## Usage
 
-Just open the terminal, go to the project directory and run `swift shell.swift`. The script will ask you some infomation about the project (Project name, bundle Identifier, etc). Once you have entered the requested data, your project will be generated and automatically opened.
+Just open the terminal, go to the project directory and run `swift shell.swift`. The script will ask you some infomation about the project (Project name, bundle Identifier, etc). Once you have entered the requested data, your project will be generated and opened automatically.
 
